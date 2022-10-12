@@ -1,0 +1,151 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+.heading{
+    -webkit-animation: animatedBackground_b 25s linear infinite alternate;
+} 
+@keyframes animatedBackground_b{
+    0% {color: red}
+    10% {color: green}
+    20%{color:yellow}
+    30%{color:blue}
+    40%{color: red}
+    50%{color: green}
+    60%{color:yellow}
+    70%{color:blue}
+    80%{color:red}
+    90%{color:green}
+    100%{color:blue};
+}
+
+.card-wrapper {
+    display: inline-flex;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.card1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: outswingleftup 1s 0s 1 normal forwards;
+}
+
+
+.card2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: outswingrightdown 1s 0s 1 normal forwards;
+}
+
+.card3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: outswingrightup 1s 0s 1 normal forwards;
+}
+
+.card4 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: outswingrightdown 1s 0s 1 normal forwards;
+}
+
+h3 {
+    position: relative;
+    bottom: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-wrapper:hover .card1 {
+    animation: swingleftup 1s 0s 1 normal forwards;
+}
+
+.card-wrapper:hover .card2 {
+    animation: swingleftdown 1s 0s 1 normal forwards;
+}
+
+.card-wrapper:hover .card3 {
+    animation: swingrightup 1s 0s 1 normal forwards;
+}
+
+.card-wrapper:hover .card4 {
+    animation: swingrightdown 1s 0s 1 normal forwards;
+}
+
+@keyframes swingleftup {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(-100px) rotate(90deg);
+    }
+}
+
+@keyframes outswingleftup {
+    0% {
+        transform: translateX(-100px) rotate(90deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes swingrightup {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(100px) rotate(90deg);
+    }
+}
+
+@keyframes outswingrightup {
+    0% {
+        transform: translateX(100px) rotate(90deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes swingleftdown {
+    0% {
+        transform: translateX(0px) rotate(90deg);
+    }
+    100% {
+        transform: translateX(-100px) rotate(0deg);
+    }
+}
+
+@keyframes outswingleftdown {
+    0% {
+        transform: translateX(-100px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(90deg);
+    }
+}
+
+@keyframes swingrightdown {
+    0% {
+        transform: translateX(0px) rotate(90deg);
+    }
+    100% {
+        transform: translateX(100px) rotate(0deg);
+    }
+}
+
+@keyframes outswingrightdown {
+    0% {
+        transform: translateX(100px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0px) rotate(90deg);
+    }
+}
