@@ -1,0 +1,92 @@
+* {
+    font-family: "Lato";
+  }
+.bg-container {
+  background-color: #535353;
+  padding: 24px;
+  width: 1429px;
+}
+.row {
+  display: flex;
+  margin: inherit
+  
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  margin: inherit;
+  color:#ffffff
+}
+.headingcolumn {
+  flex: 33.33%;
+  padding: 27px;
+  margin: inherit;
+  color:#ffffff
+}
+.icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 3%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    
+  }
+.icons-Align{
+	 	padding: 11px;
+        margin: 16px 0px;
+		font-size: 20px;
+}
+  
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+	}
+	
+	
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   background-color: #4169e1;
+   padding: 5px;
+   width: 100%;
+   color: #ffffff;
+   text-align: center;
+}
+.footerIcons {
+  list-style-type: none;  
+  padding: 0px;
+
+}
+.tableAlign{
+width:103%;
+}
+.button{
+font-size: 9px;
+width: 100px;
+height: 41px;
+border-width: 3px;
+border-radius: 1px;
+font-size: 10px;
+width: 106px;
+height: 28px;
+border-block-color: black;
+}
+	.alignIcon{
+		margin: 0px 100px;
+	}
+
+	
