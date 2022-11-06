@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+}
+
+/*---------------------------------------*/
+/* topnav */
+/*---------------------------------------*/
+.topnav {
+  overflow: hidden;
+  background-color: #04AA6D;
+  float: right;
+  display: flexbox;
+  display: flex;
+  margin-top: 28px;
+
+}
+
+/*---------------------------------------*/
+/* Banner of the website Icon */
+/*---------------------------------------*/
+img-food {
+  background-color: #04AA6D;
+  width: 100px;
+  height: 100px;
+}
+
+/*---------------------------------------*/
+/* Create two equal columns that floats next to each other */
+/*---------------------------------------*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-nav {
+  background-color: #04AA6D;
+}
+
+.paragarph-section-one {
+  background-color: #aaa;
+}
+
+.paragarph-section {
+  background-color: #bbb;
+  height: 494px;
+}
+
+.form-background {
+  float: left;
+  width: 751px;
+  height: 1005px;
+  background-color: gray;
+}
+
+.sideimg {
+  background-color: brown;
+  height: 1005px;
+  width: 752px;
+
+}
+
+/*--Form Section--*/
+/*---------------------------------------*/
+/* Register Form */
+/*---------------------------------------*/
+.signup-form {
+  font-family: "Roboto", sans-serif;
+  width: 650px;
+  margin: 30px auto;
+  background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+  border-radius: 10px;
+}
+
+/*---------------------------------------*/
+/* Form Header */
+/*---------------------------------------*/
+.form-header h1 {
+  font-size: 32px;
+  text-align: center;
+  color: orange;
+}
+
+h1 {
+  background-image: url('https://www.tristatetechnology.com/tristate-website/blog/wp-content/uploads/2019/10/swiggy-food-delivery-1.jpg');
+  height: 37vh;
+  background-size: cover;
+
+}
+
+/*---------------------------------------*/
+/* Form Body */
+/*---------------------------------------*/
+.form-body {
+  padding: 10px 40px;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-body .label-title {
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333333;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background: orange;
+  outline: none;
+}
+
+input[type="file"] {
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#range-label {
+  width: 15%;
+  padding: 5px;
+  background-color: #1BBA93;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  position: relative;
+  top: -8px;
+}
+
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+.signup-form .form-footer {
+  padding: 10px 40px;
+  text-align: center;
+  clear: both;
+}
+
+/*---------------------------------------*/
+/* SignUp Button */
+/*---------------------------------------*/
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+/*---------------------------------------*/
+/* website footer */
+/*---------------------------------------*/
+.web-footer {
+  background-color: #04AA6D;
+  text-align: center;
+  height: 42px;
+  padding: 10px;
+}
