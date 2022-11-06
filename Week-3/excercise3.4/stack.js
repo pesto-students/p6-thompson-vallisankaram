@@ -18,6 +18,7 @@ function createStack() {
             console.log(items);
         }
     }
+
 }
 
 const stack = createStack();
